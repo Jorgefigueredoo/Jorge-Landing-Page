@@ -22,7 +22,9 @@ const INSTAGRAM_LINK =
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-background text-foreground">
+
+
       {/* HERO */}
       <section className="relative overflow-hidden">
         {/* Background suave */}
@@ -315,7 +317,8 @@ export default function Home() {
       </section>
 
       {/* CTA FINAL */}
-      <section className="relative overflow-hidden bg-primary py-16 lg:py-24">
+      <section className="relative overflow-hidden border-t py-16 lg:py-24 bg-gradient-to-br from-slate-900 via-zinc-900 to-neutral-900">
+
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-primary-foreground/10 via-transparent to-transparent" />
 
         <div className="relative mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
