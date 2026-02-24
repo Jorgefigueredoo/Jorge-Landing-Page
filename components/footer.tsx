@@ -15,7 +15,7 @@ export function Footer() {
               Jorge Figueredo<span className="text-primary">.</span>
             </Link>
             <p className="mt-1 text-sm text-muted-foreground">
-              Desenvolvedor de Landing Pages
+              Desenvolvedor Web
             </p>
           </div>
 
