@@ -12,7 +12,7 @@ export function Footer() {
         <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-between">
           <div>
             <Link href="#inicio" className="text-lg font-bold tracking-tight text-foreground">
-              Jorge<span className="text-primary">.</span>
+              Jorge Figueredo<span className="text-primary">.</span>
             </Link>
             <p className="mt-1 text-sm text-muted-foreground">
               Desenvolvedor de Landing Pages
