@@ -1,7 +1,8 @@
 import type React from "react"
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -9,12 +10,11 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Jorge Figueredo | Landing Pages que Convertem",
   description:
-    "Desenvolvedor especializado em Landing Pages e portfólios profissionais. Crio soluções web focadas em conversão e resultados para qualquer nicho.",
-  generator: "v0.app",
-  keywords: ["landing page", "desenvolvedor web", "portfólio profissional", "conversão", "design responsivo"],
+    "Desenvolvedor especializado em Landing Pages e portfolios profissionais. Crio solucoes web focadas em conversao e resultados para qualquer nicho.",
+  keywords: ["landing page", "desenvolvedor web", "portfolio profissional", "conversao", "design responsivo"],
   openGraph: {
     title: "Jorge Figueredo | Landing Pages que Convertem",
-    description: "Desenvolvedor especializado em Landing Pages e portfólios profissionais.",
+    description: "Desenvolvedor especializado em Landing Pages e portfolios profissionais.",
     type: "website",
   },
   icons: {
@@ -27,17 +27,26 @@ export const metadata: Metadata = {
   },
 }
 
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f8f8f8" },
+    { media: "(prefers-color-scheme: dark)", color: "#0d0d14" },
+  ],
+  width: "device-width",
+  initialScale: 1,
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-BR" className="dark">
-      <body
-        className={`${inter.className} font-sans antialiased min-h-screen bg-background text-foreground`}
-      >
-        {children}
+    <html lang="pt-BR" suppressHydrationWarning>
+      <body className={`${inter.className} font-sans antialiased min-h-screen bg-background text-foreground`}>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+          {children}
+        </ThemeProvider>
         <Analytics />
       </body>
     </html>

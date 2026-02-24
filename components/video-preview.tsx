@@ -1,7 +1,8 @@
-// components/video-preview.tsx
+"use client"
+
 export function VideoPreview() {
   return (
-    <div className="mt-4 overflow-hidden rounded-xl border bg-muted/20">
+    <div className="mt-4 overflow-hidden rounded-xl border border-border/50 bg-secondary/30">
       <div className="relative aspect-[16/10] w-full">
         <video
           className="h-full w-full object-cover"
