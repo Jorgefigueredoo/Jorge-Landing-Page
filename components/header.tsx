@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { MessageCircle, Menu, X } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
@@ -61,8 +62,15 @@ export function Header() {
         }`}
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-          <Link href="#inicio" className="text-lg font-bold tracking-tight text-foreground">
-            Jorge<span className="text-primary">.</span>
+          <Link href="#inicio" className="flex items-center">
+            <Image
+              src="/images/logo.png"
+              alt="Jorge Figueredo - Logo"
+              width={40}
+              height={40}
+              className="h-10 w-10 object-contain"
+              priority
+            />
           </Link>
 
           {/* Desktop nav */}
