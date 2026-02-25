@@ -11,22 +11,24 @@ export const metadata: Metadata = {
   title: "Jorge Figueredo | Landing Pages que Convertem",
   description:
     "Desenvolvedor especializado em Landing Pages e portfolios profissionais. Crio solucoes web focadas em conversao e resultados para qualquer nicho.",
-  keywords: ["landing page", "desenvolvedor web", "portfolio profissional", "conversao", "design responsivo"],
+  keywords: [
+    "landing page",
+    "desenvolvedor web",
+    "portfolio profissional",
+    "conversao",
+    "design responsivo",
+  ],
   openGraph: {
     title: "Jorge Figueredo | Landing Pages que Convertem",
-    description: "Desenvolvedor especializado em Landing Pages e portfolios profissionais.",
+    description:
+      "Desenvolvedor especializado em Landing Pages e portfolios profissionais.",
     type: "website",
   },
   icons: {
-    icon: [
-      { url: "/icon-light-32x32.png", media: "(prefers-color-scheme: light)" },
-      { url: "/icon-dark-32x32.png", media: "(prefers-color-scheme: dark)" },
-      { url: "/icon.svg", type: "image/svg+xml" },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/images/logo.png",
+    apple: "/images/logo.png",
   },
-}
-
+};
 export const viewport: Viewport = {
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#f8f8f8" },
