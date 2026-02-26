@@ -78,7 +78,7 @@ export function Hero() {
               <Button size="lg" className="group h-12 gap-2 text-base font-semibold" asChild>
                 <Link href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="h-5 w-5" />
-                  Solicitar orcamento
+                  Solicitar orçamento
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
                 </Link>
               </Button>
@@ -123,9 +123,9 @@ export function Hero() {
 
                 <div className="mt-5 flex flex-col gap-2.5 text-sm">
                   {[
-                    "CTA (WhatsApp/Orcamento) destacado",
-                    "Layout enxuto, sem distracoes",
-                    "Secoes claras + prova social + FAQ",
+                    "CTA (WhatsApp/Orçamento) destacado",
+                    "Layout enxuto, sem distrações",
+                    "Secões claras + prova social + FAQ",
                   ].map((text) => (
                     <div key={text} className="flex items-center gap-2.5">
                       <CheckCircle2 className="h-4 w-4 shrink-0 text-primary" />
@@ -137,7 +137,7 @@ export function Hero() {
                 <div className="mt-5">
                   <Button asChild className="group w-full gap-2">
                     <Link href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
-                      Pedir orcamento no WhatsApp
+                      Pedir orçamento no WhatsApp
                       <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
                     </Link>
                   </Button>
