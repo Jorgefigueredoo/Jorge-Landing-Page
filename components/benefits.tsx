@@ -36,7 +36,7 @@ const benefits = [
   {
     icon: Gauge,
     title: "Carregamento rapido",
-    description: "Otimizacao de performance para garantir uma experiencia fluida ao usuario.",
+    description: "Otimização de performance para garantir uma experiencia fluida ao usuario.",
     color: "text-primary",
     bg: "bg-primary/10",
   },
@@ -50,7 +50,7 @@ const benefits = [
   {
     icon: MessageCircle,
     title: "Integracao direta",
-    description: "Links diretos para WhatsApp, formularios e outros canais de contato.",
+    description: "Links diretos para WhatsApp, formulários e outros canais de contato.",
     color: "text-primary",
     bg: "bg-primary/10",
   },
