@@ -24,7 +24,7 @@ export function Deliverables() {
             O que voce pode esperar do meu trabalho
           </h2>
           <p className="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">
-            Solucoes completas e profissionais para fortalecer sua presenca digital.
+            Soluções completas e profissionais para fortalecer sua presença digital.
           </p>
         </MotionWrapper>
 
