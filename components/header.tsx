@@ -151,7 +151,7 @@ export function Header() {
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     <MessageCircle className="h-4 w-4" />
-                    Solicitar orcamento
+                    Solicitar orçamento
                   </Link>
                 </Button>
               </div>
