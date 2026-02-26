@@ -101,7 +101,7 @@ export function Header() {
             <Button size="sm" className="hidden gap-2 md:inline-flex" asChild>
               <Link href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="h-4 w-4" />
-                Orcamento
+                Orçamento
               </Link>
             </Button>
 
