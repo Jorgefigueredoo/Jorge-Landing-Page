@@ -4,11 +4,11 @@ import { CheckCircle } from "lucide-react"
 import { MotionWrapper, StaggerContainer, StaggerItem } from "@/components/motion-wrapper"
 
 const items = [
-  "Landing page 100% personalizada para sua profissao/negocio",
+  "Sites 100% personalizados para sua profissão/negócio",
   "Design moderno e responsivo (mobile-first)",
-  "CTA estrategico (WhatsApp, formulario, botoes e links diretos)",
-  "Estrutura enxuta, sem distracoes, com foco no que vende",
-  "Pagina rapida e organizada para melhorar a experiencia do usuario",
+  "CTA estratégico (WhatsApp, formulário, botões e links diretos)",
+  "Estrutura enxuta, sem distrações, com foco no que vende",
+  "Página rápida e organizada para melhorar a experiência do usuário",
 ]
 
 export function Deliverables() {
