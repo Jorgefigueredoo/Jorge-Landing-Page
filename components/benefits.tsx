@@ -73,7 +73,7 @@ export function Benefits() {
           <p className="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">
             Eu construo uma pagina com{" "}
             <strong className="text-foreground">foco em conversao</strong>, pensada para guiar o visitante
-            ate a acao principal: entrar em contato, solicitar orcamento ou agendar um servico.
+            ate a acao principal: entrar em contato, solicitar orçamento ou agendar um servico.
           </p>
         </MotionWrapper>
 
